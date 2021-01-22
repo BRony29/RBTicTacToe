@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+#morpion {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 55px;
+}
+
+#morpion h1 {
+    text-transform: uppercase;
+    margin: 20px 0 20px 0;
+}
+
+#jeu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 300px;
+    margin: auto;
+}
+
+#statut {
+    margin: 15px 0 15px 0;
+}
+
+.case {
+    border: 1px solid #000;
+    height: 100px;
+    line-height: 100px;
+    font-size: 60px;
+}
+
+.case:hover {
+    background-color: #eee;
+}
+
+.btn {
+    border: 0;
+    line-height: 2;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(60, 60, 60, 1);
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2) 30%, rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6), inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.btn:hover {
+    background-color: rgba(25, 25, 25, 1);
+}
+
+.btn:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6), inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
