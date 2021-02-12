@@ -1,0 +1,19 @@
+{
+    "name": "rbtictactoe",
+    "version": "2.0.0",
+    "description": "javascript Tic Tac Toe",
+    "main": "index.js",
+    "scripts": {
+        "sass": "sass --watch /public/css/style.scss:/public/css/style.css --style expanded"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/BRony29/RBTicTacToe.git"
+    },
+    "author": "Bégoc Ronald",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/BRony29/RBTicTacToe/issues"
+    },
+    "homepage": "https://github.com/BRony29/RBTicTacToe#readme"
+}
